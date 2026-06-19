@@ -7,60 +7,63 @@ body{
 
 .contenedor{
     display: grid;
-    grid-template-columns: repeat(3, 100px);
-    gap: 50px;
+    grid-template-columns: 180px 180px 180px;
+    width: 100vw;
+    justify-content: space-between;
+    row-gap: 50px;
+
 }
 .cuadrado{
-    width: 80px;
-    height: 80px;
+    width: 180px;
+    height: 180px;
     background-color: cornflowerblue;
 }
 
 .cuadrado2{
-    width: 80px;
-    height: 80px;
+    width: 180px;
+    height: 180px;
     background-color: paleturquoise;
 }
 
 .cuadrado3{
-    width: 80px;
-    height: 80px;
+    width: 180px;
+    height: 180px;
     background-color: pink;
 }
 
 .cuadrado4{
-    width: 80px;
-    height: 80px;
+    width: 180px;
+    height: 180px;
     background-color: blueviolet;
 }
 
 .cuadrado5{
-    width: 80px;
-    height: 80px;
+    width: 180px;
+    height: 180px;
     background-color: green;
 }
 
 .cuadrado6{
-    width: 80px;
-    height: 80px;
+    width: 180px;
+    height: 180px;
     background-color: aquamarine;
 }
 
 .circulo{
-    width: 80px;
-    height: 80px;
+    width: 180px;
+    height: 180px;
     background-color: purple;
     border-radius: 50%;
 }
 .circulo2{
-    width: 80px;
-    height: 80px;
+    width: 180px;
+    height: 180px;
     background-color: greenyellow;
     border-radius: 50%;
 }
 .circulo3{
-    width: 80px;
-    height: 80px;
+    width: 180px;
+    height: 180px;
     background-color: blue;
     border-radius: 50%;
 }
